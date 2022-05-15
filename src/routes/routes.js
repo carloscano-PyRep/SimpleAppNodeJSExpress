@@ -19,6 +19,15 @@ router.get('/',(req,res)=>{
     };
     res.json(data);
  })
+ router.get('/Cursos',(req,res)=>{
+     const data={
+         "Platzi":[
+             "Curso de Java Script",
+             "Curso de Vue.js",
+             "Curso de consumos de API"
+         ]
+     };
+ })
  module.exports = router;
  /* Exportamos esto.
  Así creamos las rutas desde otro archivo. Así que importamos las rutas desde el archivo index */
