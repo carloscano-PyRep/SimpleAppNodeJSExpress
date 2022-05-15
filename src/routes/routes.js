@@ -24,7 +24,8 @@ router.get('/',(req,res)=>{
          "Platzi":[
              "Curso de Java Script",
              "Curso de Vue.js",
-             "Curso de consumos de API"
+             "Curso de consumos de API",
+             "Curso de Angular"
          ]
      };
  })
